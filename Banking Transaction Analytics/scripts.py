@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 
 # 1Load the Data
 file_path = "Bank_Transaction_Fraud_Detection.csv"

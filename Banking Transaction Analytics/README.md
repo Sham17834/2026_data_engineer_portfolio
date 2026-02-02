@@ -1,4 +1,3 @@
-
 # Bank Transaction Fraud Detection ETL Pipeline
 
 ## Project Overview
@@ -15,15 +14,15 @@ To optimize for analytical performance, the dataset of **200,000 raw records** w
   * `dim_merchant`: Business categories and locations.
   * `dim_date`: Time-based attributes (Weekday, Month, Year) for time-series analysis.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* **Language:** Python 3.x
+* **Language:** Python
 * **Data Manipulation:** Pandas
 * **Cloud Warehouse:** Google BigQuery
-* **Libraries:** `pandas-gbq`, `os`
+* **Libraries:** `pandas-gbq`, `pandas`
 * **Query Language:** BigQuery Standard SQL
 
-## 🚀 Pipeline Steps
+## Pipeline Steps
 
 ### Data Cleaning & Transformation
 
