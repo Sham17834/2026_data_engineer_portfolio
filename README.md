@@ -4,7 +4,7 @@ This repository contains a collection of end-to-end Data Engineering projects fo
 
 ---
 
-## Project 1: Bank Transaction Fraud Detection (GCP)
+## Project 1: Bank Transaction Fraud Detection
 
 ### Overview
 
@@ -32,7 +32,7 @@ The data is structured using a **Star Schema** to optimize query performance in 
 
 ---
 
-## Project 2: Retail Sales Analysis & Pipeline (PostgreSQL)
+## Project 2: Retail Sales Analysis & Pipeline
 
 ### Overview
 
