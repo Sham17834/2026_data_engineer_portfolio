@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Load the dataset
-df = pd.read_csv('retail_sales_dataset.csv')
+df = pd.read_csv(r'C:\Project\Data Engineer Project\E-commerce Data Pipeline\data\raw\processed\cleaned_retail_sales.csv')
 
 # Initial data exploration
 print(df.head())
@@ -35,8 +35,8 @@ df['total_amount'] = df['total_amount']
 df = df.drop(columns=['calculated_total'])
 
 # Save cleaned data to a new CSV file
-df.to_csv('cleaned_retail_sales_dataset.csv', index=False)
+df.to_csv('cleaned_retail_sales.csv', index=False)
 
 # Load cleaned data into PostgreSQL database
-engine = create_engine('postgresql+psycopg2://postgres:12345@localhost:5432/retail_db')
+engine = create_engine('postgresql+psycopg2://postgres:12345@localhost:5432/retail_sales')
 df.to_sql('retail_sales', engine, if_exists='replace', index=False)
