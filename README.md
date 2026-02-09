@@ -58,4 +58,4 @@ A comprehensive workflow focused on retail business intelligence. It involves cl
 * **Languages:** Python (Pandas, SQLAlchemy), SQL (PostgreSQL, BigQuery Standard SQL).
 * **Cloud:** Google Cloud Platform (BigQuery).
 * **Database Design:** Star Schema, Normalization, Data Integrity.
-* **Tools:** Git, Regex, Data Ingestion APIs.
+* **Tools:** Git,VScode.
