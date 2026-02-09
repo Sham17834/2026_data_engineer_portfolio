@@ -10,9 +10,9 @@ To optimize for analytical performance, the dataset of **200,000 raw records** w
 
 * **Fact Table:** `fact_transactions` (Stores quantitative transaction metrics and foreign keys).
 * **Dimension Tables:**
-  * `dim_customer`: Demographic details (State, City, Account Type).
-  * `dim_merchant`: Business categories and locations.
-  * `dim_date`: Time-based attributes (Weekday, Month, Year) for time-series analysis.
+  * `customer`: Demographic details (State, City, Account Type).
+  * `merchant`: Business categories and locations.
+  * `date`: Time-based attributes (Weekday, Month, Year) for time-series analysis.
 
 ## Tech Stack
 
