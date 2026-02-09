@@ -15,7 +15,7 @@ An automated pipeline designed to process **200,000 banking records** and identi
 The data is structured using a **Star Schema** to optimize query performance in BigQuery:
 
 * **Fact Table:** `fact_transactions` (Quantitative metrics & foreign keys).
-* **Dimension Tables:** `dim_customer` (Demographics), `dim_merchant` (Vendor details), and `dim_date` (Time-series analysis).
+* **Dimension Tables:** `customer` (Demographics), `merchant` (Vendor details), and `date` (Time-series analysis).
 
 ### Pipeline Flow
 
